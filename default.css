@@ -1,3 +1,43 @@
+
+
+
+/* effect-shine */
+h2.effect-shine:hover {
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 90%);
+	-webkit-mask-size: 200%;
+	animation: shine 2s infinite;
+  }
+  
+  @-webkit-keyframes shine {
+	from {
+	  -webkit-mask-position: 150%;
+	}
+	
+	to {
+	  -webkit-mask-position: -50%;
+	}
+}
+
+
+/* effect-shine */
+svg.effect-shine:hover {
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 90%);
+	-webkit-mask-size: 200%;
+	animation: shine 2s infinite;
+  }
+  
+  @-webkit-keyframes shine {
+	from {
+	  -webkit-mask-position: 150%;
+	}
+	
+	to {
+	  -webkit-mask-position: -50%;
+	}
+}
+
+
+
 .link:hover{
 }
 
@@ -48,7 +88,7 @@ html, body
 	
 	a
 	{
-		color: #2980b9;
+		color: #FA824C;
 	}
 	
 	a:hover
@@ -258,7 +298,7 @@ html, body
 		color: #FFFFFF;
 	}
 	
-	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+	ul.contact li a.icon-twitter:before { background: #FA824C; }
 	ul.contact li a.icon-facebook:before { background: #39599F; }
 	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
 	ul.contact li a.icon-tumblr:before { background: #31516A; }
@@ -469,7 +509,7 @@ html, body
 	
 	#menu .current_page_item a
 	{
-		background: #2980b9;
+		background: #FA824C;
 		color: rgba(255,255,255,1);
 	}
 	
@@ -506,7 +546,7 @@ html, body
 		width: 800px;
 		padding: 3em 50px 5em 50px;
 		background: #FFF;
-		border-top: 6px solid #2980b9;
+		border-top: 6px solid #FA824C;
 		text-align: center;
 	}
 
