@@ -548,6 +548,7 @@ html, body
 		background: #FFF;
 		border-top: 6px solid #FA824C;
 		text-align: center;
+		z-index: 1;
 	}
 
 /*********************************************************************************/
